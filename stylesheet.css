@@ -1,0 +1,6 @@
+/* Map placering på hjemmsiden: høje, længde, i midten af hjemmesiden */
+#map {
+    width: 450px;
+    height: 400px;
+    margin:0px auto;
+}
