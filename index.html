@@ -2,21 +2,32 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="stylesheet.css">
+    <link href="stylesheet.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+    <link crossorigin="" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
           integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
-          crossorigin=""/>
-    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+          rel="stylesheet"/>
+    <script crossorigin=""
             integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
-            crossorigin=""></script>
+            src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
     <title>Tilgængelighed til daginstitutioner og gårdhaver</title>
 </head>
 <body>
 <div id="map"></div>
 
-<script src="geojsongarden.js"></script> <!╌ Henviser til filen om gårdhaver ╌>
-<script src="geojsoninst.js"></script>  <!╌ Henviser til filen om daginstitutioner ╌>
+<form>
+    <input id="dagInst" name="Daginstitutioner" type="radio" value="Daginstitutioner">
+    <label for="dagInst">Daginstitutioner</label><br>
+    <input id="gardens" name="Gårdhavere" type="radio" value="Gårdhaver>
+    <label for="gardens">Gårdhaver</label><br>
+    <input id="showAll" name="Vis all" type="radio" value="Vis alle">
+    <label for="showAll">Vis alle</label>
+</form>
+
+<script src="geojsongarden.js"></script>
+<!╌ Henviser til filen om gårdhaver ╌>
+<script src="geojsoninst.js"></script>
+<!╌ Henviser til filen om daginstitutioner ╌>
 <script src="main.js"></script>
 </body>
 </html>
