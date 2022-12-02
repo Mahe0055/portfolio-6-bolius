@@ -29,6 +29,7 @@ daycareRadioButton.addEventListener("click",function(event){
 const backGardenRadioButton = document.querySelector("#backGarden");
 daycareRadioButton.addEventListener("click",function(event){
     L.geoJSON(geojsongarden).addTo(map);
+
 });
 
 
