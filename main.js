@@ -1,4 +1,4 @@
-//Geographical coordinates
+//Geographical coordinates: København
 var map = L.map('map').setView([55.676098, 12.568337], 11);
 
 //OpenStreetMap
@@ -20,19 +20,10 @@ backGardenRadioButton.addEventListener("click", function (event) {
 
 });
 
-// Vis alle "Radio button" der gør at daginstitutioner og gårdhaver bliver vist på kortet samtidig
-const showAllRadioButton = document.querySelector("#showAll");
-showAllRadioButton.addEventListener("click", function (event) {
-    L.geoJSON(geojsonInst).addTo(map);
-    L.geoJSON(geojsonGarden).addTo(map);
-
-});
-
-// Nulstil "button" der gør at daginstitutioner og gårdhaver bliver fjernet på kortet
+// Nulstil "button" der gør at daginstitutioner og/eller gårdhaver bliver fjernet på kortet
 const clearAllRadioButton = document.querySelector("#clearAll");
 clearAllRadioButton.addEventListener("click", function (event) {
-    // Der skal stå noget her for at det bliver fjernet
-
+    L.markerClusterGroup().clear();
 });
 
 

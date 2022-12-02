@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="53b1c585-7f65-4bff-b892-d1e7b285f359" name="Changes" comment="Radio buttons viser daginst..">
+    <list default="true" id="53b1c585-7f65-4bff-b892-d1e7b285f359" name="Changes" comment="Tilføjet &quot;nulstil&quot; knappen igen">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
@@ -70,7 +70,7 @@
       <workItem from="1669969579707" duration="53000" />
       <workItem from="1669969660655" duration="644000" />
       <workItem from="1669970333742" duration="4965000" />
-      <workItem from="1669975368396" duration="147000" />
+      <workItem from="1669975368396" duration="2507000" />
     </task>
     <task id="LOCAL-00001" summary="Html">
       <created>1669717622524</created>
@@ -156,7 +156,28 @@
       <option name="project" value="LOCAL" />
       <updated>1669974073781</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Tilføjet &quot;nulstil&quot; knappen">
+      <created>1669975729772</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1669975729772</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Tilføjet &quot;nulstil&quot; knappen">
+      <created>1669975852453</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1669975852453</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Tilføjet &quot;nulstil&quot; knappen igen">
+      <created>1669975934862</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1669975934862</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,6 +203,8 @@
     <MESSAGE value="Radiobuttons" />
     <MESSAGE value="Radiobuttons name changed" />
     <MESSAGE value="Radio buttons viser daginst.." />
-    <option name="LAST_COMMIT_MESSAGE" value="Radio buttons viser daginst.." />
+    <MESSAGE value="Tilføjet &quot;nulstil&quot; knappen" />
+    <MESSAGE value="Tilføjet &quot;nulstil&quot; knappen igen" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tilføjet &quot;nulstil&quot; knappen igen" />
   </component>
 </project>
