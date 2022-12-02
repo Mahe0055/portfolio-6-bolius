@@ -32,3 +32,4 @@ clearAllRadioButton.addEventListener("click", function (event) {
     // Der skal stå noget her for at det bliver fjernet
 });
 
+
