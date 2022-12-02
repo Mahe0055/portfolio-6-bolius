@@ -1,11 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="09ed3e71-906e-4772-80ef-e892bcf17f99" name="Changes" comment="" />
+    <list default="true" id="53b1c585-7f65-4bff-b892-d1e7b285f359" name="Changes" comment="Radiobuttons name changed">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01-12-2022_11_01__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01-12-2022_11_01__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01-12-2022_11_20__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01-12-2022_11_20__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_02-12-2022_08_34__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_02-12-2022_08_34__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -13,36 +32,112 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2IDYRTy6hwZchCTw8mPaIwfzM1q" />
+  <component name="ProjectId" id="2IDYLWXlbkrZzUcyANZ7RUuy0UZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/mahee/OneDrive/Dokumenter/KEA/1. semester/Portfølje afleveringer/6. Tværfagligt projekt - bolius førstegangskøber/webside github&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Amalie/Documents/IT-Arkitektur, KEA - Københavns Erhvervsakademi/1. Semester/1. Portfolio projects/06 Bolius - Førstegangskøber&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="09ed3e71-906e-4772-80ef-e892bcf17f99" name="Changes" comment="" />
-      <created>1669717613543</created>
+      <changelist id="53b1c585-7f65-4bff-b892-d1e7b285f359" name="Changes" comment="" />
+      <created>1669717565502</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1669717613543</updated>
-      <workItem from="1669717615140" duration="420000" />
-      <workItem from="1669718054811" duration="373000" />
-      <workItem from="1669736480818" duration="605000" />
-      <workItem from="1669793053576" duration="608000" />
-      <workItem from="1669879202183" duration="5285000" />
-      <workItem from="1669966448733" duration="977000" />
+      <updated>1669717565502</updated>
+      <workItem from="1669717566987" duration="1009000" />
+      <workItem from="1669793077043" duration="600000" />
+      <workItem from="1669879031472" duration="8010000" />
+      <workItem from="1669909754077" duration="28000" />
+      <workItem from="1669910794560" duration="3422000" />
+      <workItem from="1669919983694" duration="1090000" />
+      <workItem from="1669964758687" duration="2627000" />
+      <workItem from="1669968049172" duration="629000" />
+      <workItem from="1669969475775" duration="101000" />
+      <workItem from="1669969579707" duration="53000" />
+      <workItem from="1669969660655" duration="644000" />
+      <workItem from="1669970333742" duration="3235000" />
     </task>
+    <task id="LOCAL-00001" summary="Html">
+      <created>1669717622524</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669717622524</updated>
+    </task>
+    <task id="LOCAL-00002" summary="for sjov">
+      <created>1669717939593</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669717939593</updated>
+    </task>
+    <task id="LOCAL-00003" summary="for sjov">
+      <created>1669718064634</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1669718064634</updated>
+    </task>
+    <task id="LOCAL-00004" summary="leafletjs">
+      <created>1669888822816</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1669888822816</updated>
+    </task>
+    <task id="LOCAL-00005" summary="leafletjs">
+      <created>1669888844057</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1669888844057</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Tilføjet geojosn (grønne områder)">
+      <created>1669889997416</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1669889997416</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Tilføjet gårdhaver og institutioner på kortet">
+      <created>1669966028209</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1669966028209</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Radiobuttons">
+      <created>1669967442074</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1669967442074</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Radiobuttons name changed">
+      <created>1669967799253</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1669967799253</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -53,22 +148,20 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="main" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Html" />
+    <MESSAGE value="for sjov" />
+    <MESSAGE value="leafletjs" />
+    <MESSAGE value="Tilføjet geojosn (grønne områder)" />
+    <MESSAGE value="Tilføjet gårdhaver og institutioner på kortet" />
+    <MESSAGE value="Radiobuttons" />
+    <MESSAGE value="Radiobuttons name changed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Radiobuttons name changed" />
   </component>
 </project>
