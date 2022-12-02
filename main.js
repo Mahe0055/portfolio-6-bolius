@@ -17,6 +17,7 @@ daycareRadioButton.addEventListener("click", function (event) {
 const backGardenRadioButton = document.querySelector("#backGarden");
 backGardenRadioButton.addEventListener("click", function (event) {
     L.geoJSON(geojsonGarden).addTo(map);
+
 });
 
 // Vis alle "Radio button" der gør at daginstitutioner og gårdhaver bliver vist på kortet samtidig
@@ -24,12 +25,14 @@ const showAllRadioButton = document.querySelector("#showAll");
 showAllRadioButton.addEventListener("click", function (event) {
     L.geoJSON(geojsonInst).addTo(map);
     L.geoJSON(geojsonGarden).addTo(map);
+
 });
 
 // Nulstil "button" der gør at daginstitutioner og gårdhaver bliver fjernet på kortet
 const clearAllRadioButton = document.querySelector("#clearAll");
 clearAllRadioButton.addEventListener("click", function (event) {
     // Der skal stå noget her for at det bliver fjernet
+
 });
 
 
