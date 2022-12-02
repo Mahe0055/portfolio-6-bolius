@@ -1,0 +1,17 @@
+Index: main.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/main.js b/main.js
+--- a/main.js	
++++ b/main.js	
+@@ -14,4 +14,6 @@
+     [51.509, -0.08],
+     [51.503, -0.06],
+     [51.51, -0.047]
+-]).addTo(map);
+\ No newline at end of file
++]).addTo(map);
++
++
