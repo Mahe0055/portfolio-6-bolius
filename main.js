@@ -1,9 +1,3 @@
-console.log(geojsonInst.features);
-
-function displayCorrectArrows() {
-    L.geoJSON(geojsonInst).addTo(map);
-}
-
 //Geographical coordinates
 var map = L.map('map').setView([55.676098, 12.568337], 11);
 
@@ -13,26 +7,28 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 }).addTo(map);
 
-//Tilføjer daginstitutioner på kortet
-//L.geoJSON(geojsonInst).addTo(map);
-
-//Tilføjer gårdhaver kortet
-//L.geoJSON(geojsonGarden).addTo(map);
-
-// Radio buttons der gør at daginstitutioner bliver vist
+// Daginstitutioner "Radio button" der gør at daginstitutioner bliver vist på kortet
 const daycareRadioButton = document.querySelector("#day-careCentre");
-daycareRadioButton.addEventListener("click",function(event){
+daycareRadioButton.addEventListener("click", function (event) {
     L.geoJSON(geojsonInst).addTo(map);
 });
 
-// Radio buttons der gør at gårdhaver bliver vist
+// Gårdhaver "Radio button" der gør at gårdhaver bliver vist på kortet
 const backGardenRadioButton = document.querySelector("#backGarden");
-daycareRadioButton.addEventListener("click",function(event){
-    L.geoJSON(geojsongarden).addTo(map);
-
+backGardenRadioButton.addEventListener("click", function (event) {
+    L.geoJSON(geojsonGarden).addTo(map);
 });
 
+// Vis alle "Radio button" der gør at daginstitutioner og gårdhaver bliver vist på kortet samtidig
+const showAllRadioButton = document.querySelector("#showAll");
+showAllRadioButton.addEventListener("click", function (event) {
+    L.geoJSON(geojsonInst).addTo(map);
+    L.geoJSON(geojsonGarden).addTo(map);
+});
 
-
-
+// Nulstil "button" der gør at daginstitutioner og gårdhaver bliver fjernet på kortet
+const clearAllRadioButton = document.querySelector("#clearAll");
+clearAllRadioButton.addEventListener("click", function (event) {
+    // Der skal stå noget her for at det bliver fjernet
+});
 
