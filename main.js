@@ -1,5 +1,5 @@
 //Geographical coordinates
-var map = L.map('map').setView([55.676098, 12.568337], 13);
+var map = L.map('map').setView([55.676098, 12.568337], 11);
 
 //OpenStreetMap
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -7,8 +7,9 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 }).addTo(map);
 
-//Marker
-var marker = L.marker([51.5, -0.09]).addTo(map);
+//Tilføjer daginstitutioner på kortet
+L.geoJSON(geojsonInst).addTo(map);
 
-L.geoJSON(geojsonFeature).addTo(map);
-myLayer.addData(geojsonFeature);
+//Tilføjer gårdhaver kortet
+L.geoJSON(geojsonGarden).addTo(map);
+

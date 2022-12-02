@@ -4,3 +4,9 @@
     height: 400px;
     margin:0px auto;
 }
+
+/* Baggrundsfarve på hjemmesiden: "papir" */
+body {
+    background-color: rgb(242, 245, 245);
+}
+
