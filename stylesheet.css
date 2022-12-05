@@ -2,19 +2,54 @@
 #map {
     width: 500px;
     height: 400px;
-    margin:0px auto;
+    margin:0 auto;
 }
 
 /* Baggrundsfarve på hjemmesiden: "papir" */
 body {
     background-color: rgb(242, 245, 245);
+    font-family: Arial;
 }
+
+/* bolius header */
+header {
+    padding: 20px;
+    margin: 0;
+    width:100%;
+    background: #fff;
+    z-index: 100;
+    height: 59px;
+    transition: all .2s ease;
+}
+
+img {
+    margin: 5px;
+    top: 20px;
+    width: 100px;
+    height: auto;
+}
+
+.centeredOptions {
+    font-size: 20px;
+    color: #3E5959;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+}
+
 
 .flex-container {
     width: 700px;
     outline-style: solid;
     padding: 20px;
-    margin: 30px;
+    margin: 25px;
     /* Baggrundsfarve på boks: "frost" */
     background-color: rgb(221, 235, 235);
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    color: #3E5959;
 }
+
+
