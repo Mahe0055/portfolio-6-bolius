@@ -38,8 +38,11 @@ img {
     margin: auto;
 }
 
-
 .flex-container {
+
+}
+
+.flex-container2 {
     width: 700px;
     outline-style: solid;
     padding: 20px;
@@ -51,5 +54,3 @@ img {
     left: 25%;
     color: #3E5959;
 }
-
-
