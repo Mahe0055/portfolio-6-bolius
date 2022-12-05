@@ -10,8 +10,8 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 // Daginstitutioner "Radio button" der gør at daginstitutioner bliver vist på kortet
 const daycareRadioButton = document.querySelector("#day-careCentre");
 daycareRadioButton.addEventListener("click", function (event) {
-    L.geoJSON(geojsonInst).addTo(map);
-});
+        L.geoJSON(geojsonInst).addTo(map);
+    });
 
 // Gårdhaver "Radio button" der gør at gårdhaver bliver vist på kortet
 const backGardenRadioButton = document.querySelector("#backGarden");
@@ -29,14 +29,7 @@ showAllRadioButton.addEventListener("click", function (event) {
 // Nulstil "button" der gør at daginstitutioner og gårdhaver bliver fjernet på kortet
 const clearAllRadioButton = document.querySelector("#clearAll");
 clearAllRadioButton.addEventListener("click", function (event) {
-    // Der skal stå noget her for at det bliver fjernet
-    for (let i = 0; i < geojsonInst.length; i++ ) {
-        geojsonInst[i].setMap(null);
-    }
+        document.location.reload();
 });
-
-
-
-
 
 
