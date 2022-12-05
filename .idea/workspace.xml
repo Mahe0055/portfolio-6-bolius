@@ -8,6 +8,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheet.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,8 +70,9 @@
       <workItem from="1669969475775" duration="101000" />
       <workItem from="1669969579707" duration="53000" />
       <workItem from="1669969660655" duration="644000" />
-      <workItem from="1669970333742" duration="4965000" />
-      <workItem from="1669975368396" duration="147000" />
+      <workItem from="1669970333742" duration="3593000" />
+      <workItem from="1670156044479" duration="1868000" />
+      <workItem from="1670225069423" duration="1226000" />
     </task>
     <task id="LOCAL-00001" summary="Html">
       <created>1669717622524</created>
@@ -142,21 +144,7 @@
       <option name="project" value="LOCAL" />
       <updated>1669973891638</updated>
     </task>
-    <task id="LOCAL-00011" summary="Radio buttons viser daginst..">
-      <created>1669974060702</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1669974060702</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Radio buttons viser daginst..">
-      <created>1669974073781</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1669974073781</updated>
-    </task>
-    <option name="localTasksCounter" value="13" />
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

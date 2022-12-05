@@ -1,6 +1,6 @@
 /* Map placering på hjemmsiden: høje, længde, i midten af hjemmesiden */
 #map {
-    width: 450px;
+    width: 500px;
     height: 400px;
     margin:0px auto;
 }
@@ -10,3 +10,11 @@ body {
     background-color: rgb(242, 245, 245);
 }
 
+.flex-container {
+    width: 700px;
+    outline-style: solid;
+    padding: 20px;
+    margin: 30px;
+    /* Baggrundsfarve på boks: "frost" */
+    background-color: rgb(221, 235, 235);
+}
