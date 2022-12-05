@@ -1,0 +1,115 @@
+Index: main.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>//Geographical coordinates\r\nvar map = L.map('map').setView([55.676098, 12.568337], 11);\r\n\r\n//OpenStreetMap\r\nL.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {\r\n    maxZoom: 19,\r\n    attribution: '&copy; <a href=\"http://www.openstreetmap.org/copyright\">OpenStreetMap</a>'\r\n}).addTo(map);\r\n\r\n// Daginstitutioner \"Radio button\" der gør at daginstitutioner bliver vist på kortet\r\nconst daycareRadioButton = document.querySelector(\"#day-careCentre\");\r\ndaycareRadioButton.addEventListener(\"click\", function (event) {\r\n    L.geoJSON(geojsonInst).addTo(map);\r\n});\r\n\r\n// Gårdhaver \"Radio button\" der gør at gårdhaver bliver vist på kortet\r\nconst backGardenRadioButton = document.querySelector(\"#backGarden\");\r\nbackGardenRadioButton.addEventListener(\"click\", function (event) {\r\n    L.geoJSON(geojsonGarden).addTo(map);\r\n});\r\n\r\n// Vis alle \"Radio button\" der gør at daginstitutioner og gårdhaver bliver vist på kortet samtidig\r\nconst showAllRadioButton = document.querySelector(\"#showAll\");\r\nshowAllRadioButton.addEventListener(\"click\", function (event) {\r\n    L.geoJSON(geojsonInst).addTo(map);\r\n    L.geoJSON(geojsonGarden).addTo(map);\r\n});\r\n\r\n// Nulstil \"button\" der gør at daginstitutioner og gårdhaver bliver fjernet på kortet\r\nconst clearAllRadioButton = document.querySelector(\"#clearAll\");\r\nclearAllRadioButton.addEventListener(\"click\", function (event) {\r\n    // Der skal stå noget her for at det bliver fjernet\r\n});\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/main.js b/main.js
+--- a/main.js	(revision 183d8a3e41df5d324fe8fe992b30558fbe4a59fa)
++++ b/main.js	(date 1669975750671)
+@@ -1,3 +1,9 @@
++console.log(geojsonInst.features);
++
++function displayCorrectArrows() {
++    L.geoJSON(geojsonInst).addTo(map);
++}
++
+ //Geographical coordinates
+ var map = L.map('map').setView([55.676098, 12.568337], 11);
+ 
+@@ -7,28 +13,25 @@
+     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+ }).addTo(map);
+ 
+-// Daginstitutioner "Radio button" der gør at daginstitutioner bliver vist på kortet
++//Tilføjer daginstitutioner på kortet
++//L.geoJSON(geojsonInst).addTo(map);
++
++//Tilføjer gårdhaver kortet
++//L.geoJSON(geojsonGarden).addTo(map);
++
++// Radio buttons der gør at daginstitutioner bliver vist
+ const daycareRadioButton = document.querySelector("#day-careCentre");
+-daycareRadioButton.addEventListener("click", function (event) {
++daycareRadioButton.addEventListener("click",function(event){
+     L.geoJSON(geojsonInst).addTo(map);
+ });
+ 
+-// Gårdhaver "Radio button" der gør at gårdhaver bliver vist på kortet
++// Radio buttons der gør at gårdhaver bliver vist
+ const backGardenRadioButton = document.querySelector("#backGarden");
+-backGardenRadioButton.addEventListener("click", function (event) {
++backGardenRadioButton.addEventListener("click",function(event){
+     L.geoJSON(geojsonGarden).addTo(map);
+ });
+ 
+-// Vis alle "Radio button" der gør at daginstitutioner og gårdhaver bliver vist på kortet samtidig
+-const showAllRadioButton = document.querySelector("#showAll");
+-showAllRadioButton.addEventListener("click", function (event) {
+-    L.geoJSON(geojsonInst).addTo(map);
+-    L.geoJSON(geojsonGarden).addTo(map);
+-});
++
+ 
+-// Nulstil "button" der gør at daginstitutioner og gårdhaver bliver fjernet på kortet
+-const clearAllRadioButton = document.querySelector("#clearAll");
+-clearAllRadioButton.addEventListener("click", function (event) {
+-    // Der skal stå noget her for at det bliver fjernet
+-});
++
+ 
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"53b1c585-7f65-4bff-b892-d1e7b285f359\" name=\"Changes\" comment=\"Radio buttons viser daginst..\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/index.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/index.html\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/main.js\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/main.js\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"HTML File\" />\r\n        <option value=\"JavaScript File\" />\r\n        <option value=\"CSS File\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2IDYLWXlbkrZzUcyANZ7RUuy0UZ\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,\r\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,\r\n    &quot;last_opened_file_path&quot;: &quot;C:/Users/Amalie/Documents/IT-Arkitektur, KEA - Københavns Erhvervsakademi/1. Semester/1. Portfolio projects/06 Bolius - Førstegangskøber&quot;,\r\n    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,\r\n    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;\r\n  }\r\n}</component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"53b1c585-7f65-4bff-b892-d1e7b285f359\" name=\"Changes\" comment=\"\" />\r\n      <created>1669717565502</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1669717565502</updated>\r\n      <workItem from=\"1669717566987\" duration=\"1009000\" />\r\n      <workItem from=\"1669793077043\" duration=\"600000\" />\r\n      <workItem from=\"1669879031472\" duration=\"8010000\" />\r\n      <workItem from=\"1669909754077\" duration=\"28000\" />\r\n      <workItem from=\"1669910794560\" duration=\"3422000\" />\r\n      <workItem from=\"1669919983694\" duration=\"1090000\" />\r\n      <workItem from=\"1669964758687\" duration=\"2627000\" />\r\n      <workItem from=\"1669968049172\" duration=\"629000\" />\r\n      <workItem from=\"1669969475775\" duration=\"101000\" />\r\n      <workItem from=\"1669969579707\" duration=\"53000\" />\r\n      <workItem from=\"1669969660655\" duration=\"644000\" />\r\n      <workItem from=\"1669970333742\" duration=\"4965000\" />\r\n      <workItem from=\"1669975368396\" duration=\"147000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Html\">\r\n      <created>1669717622524</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1669717622524</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"for sjov\">\r\n      <created>1669717939593</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1669717939593</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"for sjov\">\r\n      <created>1669718064634</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1669718064634</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"leafletjs\">\r\n      <created>1669888822816</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1669888822816</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"leafletjs\">\r\n      <created>1669888844057</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1669888844057</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"Tilføjet geojosn (grønne områder)\">\r\n      <created>1669889997416</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1669889997416</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"Tilføjet gårdhaver og institutioner på kortet\">\r\n      <created>1669966028209</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1669966028209</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"Radiobuttons\">\r\n      <created>1669967442074</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1669967442074</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00009\" summary=\"Radiobuttons name changed\">\r\n      <created>1669967799253</created>\r\n      <option name=\"number\" value=\"00009\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1669967799253</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00010\" summary=\"Radio buttons viser daginst..\">\r\n      <created>1669973891638</created>\r\n      <option name=\"number\" value=\"00010\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00010\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1669973891638</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00011\" summary=\"Radio buttons viser daginst..\">\r\n      <created>1669974060702</created>\r\n      <option name=\"number\" value=\"00011\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00011\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1669974060702</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00012\" summary=\"Radio buttons viser daginst..\">\r\n      <created>1669974073781</created>\r\n      <option name=\"number\" value=\"00012\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00012\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1669974073781</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"13\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Html\" />\r\n    <MESSAGE value=\"for sjov\" />\r\n    <MESSAGE value=\"leafletjs\" />\r\n    <MESSAGE value=\"Tilføjet geojosn (grønne områder)\" />\r\n    <MESSAGE value=\"Tilføjet gårdhaver og institutioner på kortet\" />\r\n    <MESSAGE value=\"Radiobuttons\" />\r\n    <MESSAGE value=\"Radiobuttons name changed\" />\r\n    <MESSAGE value=\"Radio buttons viser daginst..\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Radio buttons viser daginst..\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 183d8a3e41df5d324fe8fe992b30558fbe4a59fa)
++++ b/.idea/workspace.xml	(date 1669975777622)
+@@ -4,9 +4,8 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="53b1c585-7f65-4bff-b892-d1e7b285f359" name="Changes" comment="Radio buttons viser daginst..">
++    <list default="true" id="53b1c585-7f65-4bff-b892-d1e7b285f359" name="Changes" comment="id names changed">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+@@ -69,8 +68,7 @@
+       <workItem from="1669969475775" duration="101000" />
+       <workItem from="1669969579707" duration="53000" />
+       <workItem from="1669969660655" duration="644000" />
+-      <workItem from="1669970333742" duration="4965000" />
+-      <workItem from="1669975368396" duration="147000" />
++      <workItem from="1669970333742" duration="3593000" />
+     </task>
+     <task id="LOCAL-00001" summary="Html">
+       <created>1669717622524</created>
+@@ -142,21 +140,7 @@
+       <option name="project" value="LOCAL" />
+       <updated>1669973891638</updated>
+     </task>
+-    <task id="LOCAL-00011" summary="Radio buttons viser daginst..">
+-      <created>1669974060702</created>
+-      <option name="number" value="00011" />
+-      <option name="presentableId" value="LOCAL-00011" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1669974060702</updated>
+-    </task>
+-    <task id="LOCAL-00012" summary="Radio buttons viser daginst..">
+-      <created>1669974073781</created>
+-      <option name="number" value="00012" />
+-      <option name="presentableId" value="LOCAL-00012" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1669974073781</updated>
+-    </task>
+-    <option name="localTasksCounter" value="13" />
++    <option name="localTasksCounter" value="11" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
