@@ -1,4 +1,4 @@
-//Daginstitutioner markers design på kortet i farven organge
+//Daginstitutioner markers design på kortet i farven grøn
 var geojsonMarkerOptions = {
     radius: 8,
     fillColor: "#468C8C",
