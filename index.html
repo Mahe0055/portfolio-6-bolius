@@ -36,41 +36,64 @@
     </span>
 </header>
 
+<section class="tema">
+    <div class="container">
+        <p class="tem-text">TEMA</p>
+        <h1 class="firstTimeBuyer">Førstegangskøber</h1>
+        <p class="bodyTextTema">Få som førstegangskøber overblik over som børnefamilie i København tilgængelighed over
+            daginstitutioner og gårdhaver på denne temaside. Du kan bl.a., se hvilke daginstitutioner, der ligger tæt på
+            de gårdhaver i det område du ser efter boliger.</p>
+    </div>
+</section>
+
 <body>
-
 <div class="flex-container">
-<h1>Sådan bruger du kortet</h1>
-<ul>
-    <li>Filtrér hvad du vil se på kortet.</li>
-    <li>Se dine valg på kortet, særligt fokus på KBH.</li>
-    <li>Zoom ind/ud efter byer du ønsker at se.</li>
-</ul>
+    <h1>Sådan bruger du kortet</h1>
+    <ul>
+        <li>Filtrér hvad du vil se på kortet.</li>
+        <li>Se dine valg på kortet, særligt fokus på KBH.</li>
+        <li>Zoom ind/ud efter byer du ønsker at se.</li>
+    </ul>
 </div>
 
 
-<div class="flex-container2" >
-<div id="map"></div>
-
-<form>
-    <input id="day-careCentre" name="Daginstitutioner" type="radio" value="Daginstitutioner">
-    <label for="day-careCentre">Daginstitutioner</label>
-    <input id="backGarden" name="Gårdhavere" type="radio" value="Gårdhaver">
-    <label for="backGarden">Gårdhaver</label>
-    <input id="showAll" name="Vis all" type="radio" value="Vis alle">
-    <label for="showAll">Vis alle</label>
-    <input id="clearAll" type="button" value="Nulstil">
-</form>
+<div class="flex-container2">
+    <div id="map"></div>
+    <form>
+        <input id="day-careCentre" name="Daginstitutioner" type="radio" value="Daginstitutioner">
+        <label for="day-careCentre">Daginstitutioner</label>
+        <input id="backGarden" name="Gårdhavere" type="radio" value="Gårdhaver">
+        <label for="backGarden">Gårdhaver</label>
+        <input id="showAll" name="Vis all" type="radio" value="Vis alle">
+        <label for="showAll">Vis alle</label>
+        <input id="clearAll" type="button" value="Nulstil">
+    </form>
 </div>
 
-<div>
-    <h2>Kilder og henvisninger</h2>
-    <h3>Bidragsydere:</h3>
-</div>
+<section class="sourcesReferences">
+    <div>
+        <h2 class="sources">Kilder og henvisninger</h2>
+        <h3>Bidragsydere:</h3>
+        <ul class="listOfNames">
+            <li>Amalie, it-arkitekt studerende</li>
+            <li>Klara, it-arkitekt studerende</li>
+            <li>Maheen, it-arkitekt studerende</li>
+        </ul>
+        <h3>Henvisninger:</h3>
+        <ul class="links">
+            <li><a href="https://www.opendata.dk/city-of-copenhagen/gardhaver#resource-gaardhaver.geojson"
+                   id="dataAboutGarden"
+                   target="_blank">Data om "gårdhaver" på opendata.dk</a></li>
+            <li><a href="https://www.opendata.dk/city-of-copenhagen/daginstitutioner" id="dataAboutInst"
+                   target="_blank">Data om "daginstitutioner" på opendata.dk</a></a></li>
+        </ul>
+    </div>
+</section>
 
 <!╌ Henviser til filen om gårdhaver ╌>
-<script src="geojsongarden.js" ></script>
+<script src="geojsongarden.js"></script>
 <!╌ Henviser til filen om daginstitutioner╌>
-<script src="geojsoninst.js" ></script>
+<script src="geojsoninst.js"></script>
 <script src="main.js"></script>
 </body>
 </html>

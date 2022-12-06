@@ -2,7 +2,7 @@
 #map {
     width: 500px;
     height: 400px;
-    margin:0 auto;
+    margin: 0 auto;
 }
 
 /* Baggrundsfarve på hjemmesiden: "papir" */
@@ -15,13 +15,14 @@ body {
 header {
     padding: 20px;
     margin: 0;
-    width:100%;
+    width: auto;
     background: #fff;
     z-index: 100;
     height: 59px;
     transition: all .2s ease;
 }
 
+/* bolius logo */
 img {
     margin: 5px;
     top: 20px;
@@ -29,6 +30,7 @@ img {
     height: auto;
 }
 
+/* Menuen med bolig, have og om*/
 .centeredOptions {
     font-size: 20px;
     color: #3E5959;
@@ -38,19 +40,84 @@ img {
     margin: auto;
 }
 
+/* Information om hvordan man bruger kortet*/
 .flex-container {
+    display: flex;
+    position: absolute;
+    top: 100%;
+    left: 25%;
+    margin: 25px;
+    padding: 20px;
+    font-size: 30px;
+    width: 700px;
+    background-color: rgb(221, 235, 235);
+    font-size: 15px;
 
 }
 
+/* knap om gårdhaver, daginstitutioner og vis alle */
 .flex-container2 {
     width: 700px;
-    outline-style: solid;
     padding: 20px;
     margin: 25px;
-    /* Baggrundsfarve på boks: "frost" */
-    background-color: rgb(221, 235, 235);
+    background-color: white;
     position: absolute;
-    top: 20%;
+    top: 125%;
     left: 25%;
-    color: #3E5959;
+    color: black;
+}
+
+/* Team boksens farve, tekst placering/farve */
+.tema {
+    padding: 75px;
+    text-align: left;
+    background-color: rgb(62, 89, 89);
+    color: white;
+}
+
+/* Teskten "TEMA". Farve og størrelse */
+.tem-text {
+    color: rgb(221, 235, 235);
+    font-weight: bold;
+}
+
+/* Teskten "Førstegangskøber". Størrelse */
+.firstTimeBuyer {
+    font-size: 55px;
+}
+
+/* Brødteksten i "tema" feltet. Størrelse*/
+.bodyTextTema {
+
+}
+
+/* Boksen "kilder og henvisninger" placering, baggrundsfarve, størrelse på boksen*/
+.sourcesReferences {
+    display: flex;
+    position: absolute;
+    top: 210%;
+    left: 25%;
+    margin: 25px;
+    padding: 20px;
+    font-size: 30px;
+    width: 700px;
+    background-color: rgb(221, 235, 235);
+    font-size: 15px;
+}
+
+/* Teksten "Kilder og henvisninger" størrelse og farve*/
+.sources {
+    font-size: 20px;
+    color: rgb(62, 89, 89);
+}
+
+/* Teksten "Bidragsydere" og "henvisninger" ingen prikker ved navne/links*/
+.listOfNames, .links {
+    list-style-type: none;
+    text-align: left;
+}
+
+/* Linksene til gårdhaver og daginstitutioner er farvet sorte*/
+#dataAboutGarden, #dataAboutInst {
+    color: black;
 }
