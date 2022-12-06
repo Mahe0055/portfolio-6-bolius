@@ -126,8 +126,8 @@ img {
     accent-color: #468C8C;
 }
 
-/* mellem øverst i menuen*/
-a {
+/* mellemrum øverst i menuen*/
+.menu-toggle nav-link, .nav-item, .menu-toggle {
     padding: 70px;
 }
 

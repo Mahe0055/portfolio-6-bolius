@@ -22,6 +22,7 @@ daycareRadioButton.addEventListener("click", function (event) {
 const backGardenRadioButton = document.querySelector("#backGarden");
 backGardenRadioButton.addEventListener("click", function (event) {
 // Gårdhaver - runde farvede cirkler
+    console.log("hell")
     L.geoJSON(geojsonGarden, {
         pointToLayer: function (feature, latlng) {
             return L.circleMarker(latlng, geojsonMarkerOptionsG);
