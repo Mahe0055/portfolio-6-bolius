@@ -44,7 +44,7 @@ img {
 .flex-container {
     display: flex;
     position: absolute;
-    top: 100%;
+    top: 70%;
     left: 25%;
     margin: 25px;
     padding: 20px;
@@ -62,7 +62,7 @@ img {
     margin: 25px;
     background-color: white;
     position: absolute;
-    top: 125%;
+    top: 90%;
     left: 25%;
     color: black;
 }
@@ -95,7 +95,7 @@ img {
 .sourcesReferences {
     display: flex;
     position: absolute;
-    top: 210%;
+    top: 155%;
     left: 25%;
     margin: 25px;
     padding: 20px;
