@@ -121,6 +121,19 @@ img {
     color: black;
 }
 
+/* grøn radio button for "Daginstitutioner"*/
 #day-careCentre {
     accent-color: #468C8C;
+}
+
+/* mellem øverst i menuen*/
+a {
+    padding: 70px;
+}
+
+/* placering for elementer i menuen*/
+.searchContainer {
+    position: relative;
+    left: 220px;
+    top: 10%;
 }
