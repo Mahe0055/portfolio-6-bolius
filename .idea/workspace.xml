@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="53b1c585-7f65-4bff-b892-d1e7b285f359" name="Changes" comment="gårdhaver farver">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
-    </list>
+    <list default="true" id="53b1c585-7f65-4bff-b892-d1e7b285f359" name="Changes" comment="Rettet felx boks" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -78,7 +74,7 @@
       <workItem from="1670313023935" duration="163000" />
       <workItem from="1670313190962" duration="7181000" />
       <workItem from="1670322946967" duration="204000" />
-      <workItem from="1670397938089" duration="4900000" />
+      <workItem from="1670397938089" duration="5208000" />
     </task>
     <task id="LOCAL-00001" summary="Html">
       <created>1669717622524</created>
@@ -199,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670399545140</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Rettet felx boks">
+      <created>1670403172591</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1670403172591</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,6 +232,7 @@
     <MESSAGE value="Daginst er runde orange cirkler nu" />
     <MESSAGE value="Mangler gårshaver - ny farve" />
     <MESSAGE value="gårdhaver farver" />
-    <option name="LAST_COMMIT_MESSAGE" value="gårdhaver farver" />
+    <MESSAGE value="Rettet felx boks" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rettet felx boks" />
   </component>
 </project>
