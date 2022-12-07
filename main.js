@@ -36,6 +36,7 @@ backGardenRadioButton.addEventListener("click", function (event) {
     L.geoJSON(geojsonGarden, {style: myStyle}).addTo(map);
 });
 
+
 // Vis alle "Radio button" der gør at daginstitutioner og gårdhaver bliver vist på kortet samtidig
 const showAllRadioButton = document.querySelector("#showAll");
 showAllRadioButton.addEventListener("click", function (event) {
