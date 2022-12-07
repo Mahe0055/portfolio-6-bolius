@@ -13,63 +13,64 @@ body {
 
 /* bolius header */
 header {
-    padding: 20px;
+    padding: 0.5%;
     margin: 0;
     width: auto;
     background: #fff;
     z-index: 100;
-    height: 59px;
+    height: 59%;
     transition: all .2s ease;
 }
 
 /* bolius logo */
 img {
-    margin: 5px;
-    top: 20px;
-    width: 100px;
+    margin: 0;
+    top: 20%;
+    width: 6%;
     height: auto;
 }
 
 /* Menuen med bolig, have og om*/
 .centeredOptions {
-    font-size: 20px;
+    font-size: 100%;
+    font-weight: lighter;
     color: #3E5959;
     justify-content: space-between;
     flex-direction: row;
     align-items: center;
-    margin: auto;
+    margin-top: 0;
 }
 
 /* Information om hvordan man bruger kortet*/
 .flex-container {
     display: flex;
     position: absolute;
-    top: 90%;
+    top: 60%;
     left: 25%;
-    margin: 25px;
-    padding: 20px;
-    width: 700px;
+    margin: 2%;
+    padding: 2%;
+    width: 45%;
     background-color: rgb(221, 235, 235);
-    font-size: 15px;
+    font-size: 90%;
 }
 
 
 
 /* knap om gårdhaver, daginstitutioner og vis alle */
 .flex-container2 {
-    width: 700px;
-    padding: 20px;
-    margin: 25px;
+    width: 45%;
+    padding: 2%;
+    margin: 2%;
     background-color: white;
     position: absolute;
-    top: 110%;
+    top: 75%;
     left: 25%;
     color: black;
 }
 
 /* Team boksens farve, tekst placering/farve */
 .tema {
-    padding: 75px;
+    padding: 5%;
     text-align: left;
     background-color: rgb(62, 89, 89);
     color: white;
@@ -83,7 +84,8 @@ img {
 
 /* Teskten "Førstegangskøber". Størrelse */
 .firstTimeBuyer {
-    font-size: 55px;
+    font-size: 250%;
+    align-items: center;
 }
 
 /* Brødteksten i "tema" feltet. Størrelse*/
@@ -95,18 +97,18 @@ img {
 .sourcesReferences {
     display: flex;
     position: absolute;
-    top: 190%;
+    top: 150%;
     left: 25%;
-    margin: 25px;
-    padding: 20px;
-    width: 700px;
+    width: 45%;
+    padding: 2%;
+    margin: 2%;
     background-color: rgb(221, 235, 235);
-    font-size: 15px;
+    font-size: 80%;
 }
 
 /* Teksten "Kilder og henvisninger" størrelse og farve*/
 .sources {
-    font-size: 20px;
+    font-size: 100%;
     color: rgb(62, 89, 89);
 }
 
@@ -138,12 +140,12 @@ img {
 
 /* mellemrum øverst i menuen*/
 .menu-toggle nav-link, .nav-item, .menu-toggle {
-    padding: 70px;
+    padding:4%;
 }
 
 /* placering for elementer i menuen*/
 .searchContainer {
     position: relative;
-    left: 220px;
+    left: 20%;
     top: 10%;
 }
