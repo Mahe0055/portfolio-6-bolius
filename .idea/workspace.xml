@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="53b1c585-7f65-4bff-b892-d1e7b285f359" name="Changes" comment="Mangler gårshaver - ny farve">
+    <list default="true" id="53b1c585-7f65-4bff-b892-d1e7b285f359" name="Changes" comment="gårdhaver farver">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/geoJsongarden.js" beforeDir="false" afterPath="$PROJECT_DIR$/geoJsongarden.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheet.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +78,7 @@
       <workItem from="1670313023935" duration="163000" />
       <workItem from="1670313190962" duration="7181000" />
       <workItem from="1670322946967" duration="204000" />
-      <workItem from="1670397938089" duration="1203000" />
+      <workItem from="1670397938089" duration="4900000" />
     </task>
     <task id="LOCAL-00001" summary="Html">
       <created>1669717622524</created>
@@ -187,7 +185,21 @@
       <option name="project" value="LOCAL" />
       <updated>1670317117350</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="gårdhaver farver">
+      <created>1670399313329</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1670399313329</updated>
+    </task>
+    <task id="LOCAL-00017" summary="gårdhaver farver">
+      <created>1670399545140</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1670399545140</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,6 +228,7 @@
     <MESSAGE value="Rettet på hjemmeside" />
     <MESSAGE value="Daginst er runde orange cirkler nu" />
     <MESSAGE value="Mangler gårshaver - ny farve" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mangler gårshaver - ny farve" />
+    <MESSAGE value="gårdhaver farver" />
+    <option name="LAST_COMMIT_MESSAGE" value="gårdhaver farver" />
   </component>
 </project>

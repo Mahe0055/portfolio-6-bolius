@@ -44,19 +44,19 @@ img {
 /* Information om hvordan man bruger kortet*/
 .flex-container {
     display: flex;
+    flex-direction: column;
+    height: 250px;
     position: absolute;
-    top: 60%;
+    top: 70%;
     left: 25%;
     margin: 2%;
-    padding: 2%;
-    width: 45%;
+    padding: 5%;
+    width: 50%;
     background-color: rgb(221, 235, 235);
     font-size: 90%;
 }
 
-
-
-/* knap om gårdhaver, daginstitutioner og vis alle */
+/* knap om gårdhaver, daginstitutioner og vis alle
 .flex-container2 {
     width: 45%;
     padding: 2%;
@@ -67,6 +67,7 @@ img {
     left: 25%;
     color: black;
 }
+*/
 
 /* Team boksens farve, tekst placering/farve */
 .tema {
@@ -87,11 +88,6 @@ img {
     font-size: 250%;
     align-items: center;
 }
-
-/* Brødteksten i "tema" feltet. Størrelse*/
-/*.bodyTextTema {
-
-}*/
 
 /* Boksen "kilder og henvisninger" placering, baggrundsfarve, størrelse på boksen*/
 .sourcesReferences {

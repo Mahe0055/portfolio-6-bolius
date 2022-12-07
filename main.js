@@ -67,22 +67,6 @@ clearAllRadioButton.addEventListener("click", function (event) {
     document.location.reload();
 });
 
-function onMapClick(e) {
-    var marker = L.circleMarker(e.latlng, {draggable:true});
-
-    marker.myCustomID = Math.floor((Math.random() * 100) + 1);
-
-    marker.on('click', onMarkerClick);
-
-    map.addLayer(marker);
-
-    // 'click' the new marker to show the ID when marker created
-    marker.fireEvent('click');
-}
-
-function onMarkerClick(e) {
-    alert(e.target.myCustomID);
-}
 
 
 

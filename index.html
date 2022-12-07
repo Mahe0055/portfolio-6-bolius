@@ -50,51 +50,45 @@
 </section>
 
 <body>
-<span class="flex-container">
+<div class="flex-container">
     <h1>Sådan bruger du kortet</h1>
     <ul>
         <li>Filtrér hvad du vil se på kortet.</li>
         <li>Se dine valg på kortet, særligt fokus på KBH.</li>
         <li>Zoom ind/ud efter byer du ønsker at se.</li>
     </ul>
-</span>
 
-
-<span class="flex-container2">
     <div id="map"></div>
-
     <form>
-        <input id="day-careCentre" name="Daginstitutioner" type="radio" value="Daginstitutioner">
+        <input id="day-careCentre" name="selection" type="radio" value="Daginstitutioner">
         <label for="day-careCentre">Daginstitutioner</label>
-        <input id="backGarden" name="Gårdhavere" type="radio" value="Gårdhaver">
+        <input id="backGarden" name="selection" type="radio" value="Gårdhaver">
         <label for="backGarden">Gårdhaver</label>
-        <input id="showAll" name="Vis all" type="radio" value="Vis alle">
+        <input id="showAll" name="selection" type="radio" value="Vis alle">
         <label for="showAll">Vis alle</label>
         <input id="clearAll" type="button" value="Nulstil">
     </form>
+</div>
 
-</span>
+<div class="sourcesReferences">
+    <h2 class="sources">Kilder og henvisninger</h2>
+    <h3>Bidragsydere:</h3>
+    <ul class="listOfNames">
+        <li>Amalie, IT-arkitektur studerende</li>
+        <li>Klara, IT-arkitektur studerende</li>
+        <li>Maheen, IT-arkitektur studerende</li>
+    </ul>
+    <h3>Henvisninger:</h3>
+    <ul class="links">
+        <li><a href="https://www.opendata.dk/city-of-copenhagen/gardhaver#resource-gaardhaver.geojson"
+               id="dataAboutGarden"
+               target="_blank">Data om "gårdhaver" på opendata.dk</a></li>
+        <li><a href="https://www.opendata.dk/city-of-copenhagen/daginstitutioner" id="dataAboutInst"
+               target="_blank">Data om "daginstitutioner" på opendata.dk</a></a></li>
+    </ul>
+</div>
 
-<section class="sourcesReferences">
-    <span>
-        <h2 class="sources">Kilder og henvisninger</h2>
-        <h3>Bidragsydere:</h3>
-        <ul class="listOfNames">
-            <li>Amalie, IT-arkitektur studerende</li>
-            <li>Klara, IT-arkitektur studerende</li>
-            <li>Maheen, IT-arkitektur studerende</li>
-        </ul>
-        <h3>Henvisninger:</h3>
-        <ul class="links">
-            <li><a href="https://www.opendata.dk/city-of-copenhagen/gardhaver#resource-gaardhaver.geojson"
-                   id="dataAboutGarden"
-                   target="_blank">Data om "gårdhaver" på opendata.dk</a></li>
-            <li><a href="https://www.opendata.dk/city-of-copenhagen/daginstitutioner" id="dataAboutInst"
-                   target="_blank">Data om "daginstitutioner" på opendata.dk</a></a></li>
-        </ul>
-    </span>
-</section>
-
+</div>
 <!╌ Henviser til filen om gårdhaver ╌>
 <script src="geojsongarden.js"></script>
 <!╌ Henviser til filen om daginstitutioner╌>
