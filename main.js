@@ -25,15 +25,16 @@ const backGardenRadioButton = document.querySelector("#backGarden");
 backGardenRadioButton.addEventListener("click", function (event) {
 // Gårdhaver
     const myStyle =
-    {
-        weight: 1,
-        opacity: 100,
-        color: 'red',
-        dashArray: '3',
-        fillOpacity: 0.7
-    };
+        {
+            weight: 1,
+            opacity: 100,
+            color: "#86babf",
+            dashArray: '3',
+            fillOpacity: 0.7
+        };
 
     L.geoJSON(geojsonGarden, {style: myStyle}).addTo(map);
+
 });
 
 // Vis alle "Radio button" der gør at daginstitutioner og gårdhaver bliver vist på kortet samtidig
@@ -45,8 +46,18 @@ showAllRadioButton.addEventListener("click", function (event) {
             return L.circleMarker(latlng, geojsonMarkerOptions);
         }
     }).addTo(map);
+
 // Gårdhaver
-    L.geoJSON(geojsonGarden).addTo(map);
+    const myStyle =
+        {
+            weight: 1,
+            opacity: 100,
+            color: "#86babf",
+            dashArray: '3',
+            fillOpacity: 0.7
+        };
+
+    L.geoJSON(geojsonGarden, {style: myStyle}).addTo(map);
 });
 
 // Nulstil "button" der gør at daginstitutioner og gårdhaver bliver fjernet på kortet
