@@ -18,16 +18,22 @@ daycareRadioButton.addEventListener("click", function (event) {
     }).addTo(map);
 });
 
+
+
 // Gårdhaver "Radio button" der gør at gårdhaver bliver vist på kortet
 const backGardenRadioButton = document.querySelector("#backGarden");
 backGardenRadioButton.addEventListener("click", function (event) {
-// Gårdhaver - runde farvede cirkler
-    console.log("hell")
-    L.geoJSON(geojsonGarden, {
-        pointToLayer: function (feature, latlng) {
-            return L.circleMarker(latlng, geojsonMarkerOptionsG);
-        }
-    }).addTo(map);
+// Gårdhaver
+    const myStyle =
+    {
+        weight: 1,
+        opacity: 100,
+        color: 'red',
+        dashArray: '3',
+        fillOpacity: 0.7
+    };
+
+    L.geoJSON(geojsonGarden, {style: myStyle}).addTo(map);
 });
 
 // Vis alle "Radio button" der gør at daginstitutioner og gårdhaver bliver vist på kortet samtidig
@@ -39,12 +45,8 @@ showAllRadioButton.addEventListener("click", function (event) {
             return L.circleMarker(latlng, geojsonMarkerOptions);
         }
     }).addTo(map);
-// Gårdhaver - runde farvede cirkler
-    L.geoJSON(geojsonGarden, {
-        pointToLayer: function (feature, latlng) {
-            return L.circleMarker(latlng, geojsonMarkerOptionsG);
-        }
-    }).addTo(map);
+// Gårdhaver
+    L.geoJSON(geojsonGarden).addTo(map);
 });
 
 // Nulstil "button" der gør at daginstitutioner og gårdhaver bliver fjernet på kortet

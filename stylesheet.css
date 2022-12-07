@@ -86,11 +86,6 @@ img {
     font-size: 55px;
 }
 
-/* Brødteksten i "tema" feltet. Størrelse*/
-/*.bodyTextTema {
-
-}*/
-
 /* Boksen "kilder og henvisninger" placering, baggrundsfarve, størrelse på boksen*/
 .sourcesReferences {
     display: flex;
@@ -124,6 +119,11 @@ img {
 /* grøn radio button for "Daginstitutioner"*/
 #day-careCentre {
     accent-color: #468C8C;
+}
+
+/* grøn radio button for "gårdhaver"*/
+#backGarden {
+    accent-color: #c71585;
 }
 
 /* mellemrum øverst i menuen*/
