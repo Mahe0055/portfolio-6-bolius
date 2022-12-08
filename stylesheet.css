@@ -1,26 +1,13 @@
-/* Map placering på hjemmsiden: høje, længde, i midten af hjemmesiden */
-#map {
-    width: 500px;
-    height: 400px;
-    margin: 0 auto;
+/* mellemrum øverst i menuen*/
+.menu-toggle nav-link, .nav-item, .menu-toggle {
+    padding: 4%;
 }
 
-/* Baggrundsfarve på hjemmesiden: "papir" */
-body {
-    background-color: rgb(242, 245, 245);
-    font-family: Arial;
-    margin: 0;
-}
-
-/* bolius header */
-header {
-    padding: 1%;
-    margin: 0;
-    width: auto;
-    background: #fff;
-    z-index: 100;
-    height: 59%;
-    transition: all .2s ease;
+/* placering for elementer i menuen*/
+.searchContainer {
+    position: relative;
+    left: 18%;
+    top: -10px;
 }
 
 /* bolius logo */
@@ -30,7 +17,6 @@ img {
     width: 6%;
     height: 20%;
 }
-
 
 /* Menuen med bolig, have og om*/
 .centeredOptions {
@@ -43,38 +29,15 @@ img {
     margin: auto;
 }
 
-/* Information om hvordan man bruger kortet*/
-.flex-container {
-    display: flex;
-    position: absolute;
-    flex-direction: column;
-    top: 68%;
-    left: 19%;
-    margin: 2%;
-    padding: 4%;
-    width: 60%;
-    background-color: rgb(221, 235, 235);
-    box-sizing: border-box;
-}
-
-
-
-/* tekst størrelse for "s¨+ådan bruger du kortet"*/
-h1 {
-    font-size: 150%;
-}
-
-/* tekst størrelse for "filter teksten"*/
-li {
-    font-size: 100%;
+/* bolius header */
+header {
     padding: 1%;
-}
-
-/* knap om gårdhaver, daginstitutioner og vis alle */
-.radioButtons {
-    font-size: 110%;
-    padding: 3%;
-    align-items: center;
+    margin: 0;
+    width: auto;
+    background: #fff;
+    z-index: 100;
+    height: 59%;
+    transition: all .2s ease;
 }
 
 /* Team boksens farve, tekst placering/farve */
@@ -97,12 +60,66 @@ li {
     align-items: center;
 }
 
-/* Brødteksten i "tema" feltet. Størrelse*/
-/*.bodyTextTema {
+/* Baggrundsfarve på hjemmesiden: "papir" */
+body {
+    background-color: rgb(242, 245, 245);
+    font-family: Arial;
+    margin: 0;
+}
 
-}*/
+/* Information om hvordan man bruger kortet*/
+.flex-container {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    top: 68%;
+    left: 19%;
+    margin: 2%;
+    padding: 4%;
+    width: 60%;
+    background-color: rgb(221, 235, 235);
+    box-sizing: border-box;
+}
 
-/* Boksen "kilder og henvisninger" placering, baggrundsfarve, størrelse på boksen*/
+/* tekst størrelse for "sådan bruger du kortet" og "kilde og henvisninger*/
+li {
+    font-size: 100%;
+    padding: 1%;
+}
+
+/* tekst størrelse for "sådan bruger du kortet"*/
+h1 {
+    font-size: 150%;
+}
+
+/* Map placering på hjemmsiden: høje, længde, i midten af hjemmesiden */
+#map {
+    width: 500px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+/* grøn radio button for "gårdhaver"*/
+#backGarden {
+    accent-color: #ee5c47;
+}
+
+/* grøn radio button for "Daginstitutioner"*/
+#day-careCentre {
+    accent-color: #468C8C;
+}
+
+/* sort radio button for "Vis alle"*/
+#showAll {
+    accent-color: black;
+}
+
+/* knap om gårdhaver, daginstitutioner og vis alle */
+.radioButtons {
+    font-size: 110%;
+    padding: 3%;
+    align-items: center;
+}
 
 /* Teksten "Kilder og henvisninger" størrelse og farve*/
 .sources {
@@ -120,29 +137,4 @@ li {
 #dataAboutGarden, #dataAboutInst {
     color: black;
 }
-/* grøn radio button for "gårdhaver"*/
-#backGarden {
-    accent-color: #ee5c47;
-}
 
-/* grøn radio button for "Daginstitutioner"*/
-#day-careCentre {
-    accent-color: #468C8C;
-}
-
-/* sort radio button for "Vis alle"*/
-#showAll {
-    accent-color: black;
-}
-
-/* mellemrum øverst i menuen*/
-.menu-toggle nav-link, .nav-item, .menu-toggle {
-    padding: 4%;
-}
-
-/* placering for elementer i menuen*/
-.searchContainer {
-    position: relative;
-    left: 18%;
-    top: -10px;
-}
