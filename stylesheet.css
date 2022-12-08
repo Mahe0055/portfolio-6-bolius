@@ -40,9 +40,9 @@ header {
     transition: all .2s ease;
 }
 
-/* Team boksens farve, tekst placering/farve */
+/* Tema boksens farve, tekst placering/farve */
 .tema {
-    padding: 6%;
+    padding: 2%;
     text-align: left;
     background-color: rgb(62, 89, 89);
     color: white;
@@ -56,8 +56,8 @@ header {
 
 /* Teskten "Førstegangskøber". Størrelse */
 .firstTimeBuyer {
-    font-size: 250%;
-    align-items: center;
+    font-size: 400%;
+    text-align: left;
 }
 
 /* Baggrundsfarve på hjemmesiden: "papir" */

@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="53b1c585-7f65-4bff-b892-d1e7b285f359" name="Changes" comment="Beskrivelse af formål og budskab">
+    <list default="true" id="53b1c585-7f65-4bff-b892-d1e7b285f359" name="Changes" comment="linjeafstand">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheet.css" afterDir="false" />
@@ -243,7 +243,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670493337422</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="linjeafstand">
+      <created>1670494129855</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1670494129855</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -277,6 +284,7 @@
     <MESSAGE value="Tilføjet map.eachLayer og removeLayer" />
     <MESSAGE value="Tilføjet navn på dagins på de grønne cirkler" />
     <MESSAGE value="Beskrivelse af formål og budskab" />
-    <option name="LAST_COMMIT_MESSAGE" value="Beskrivelse af formål og budskab" />
+    <MESSAGE value="linjeafstand" />
+    <option name="LAST_COMMIT_MESSAGE" value="linjeafstand" />
   </component>
 </project>
