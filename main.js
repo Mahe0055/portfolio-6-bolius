@@ -91,6 +91,9 @@ showAllRadioButton.addEventListener("click", function (event) {
     }).addTo(map);
 });
 
+
+
+
 //Nulstil "button" der gør at daginstitutioner og gårdhaver bliver fjernet på kortet
 const clearAllRadioButton = document.querySelector("#clearAll");
 clearAllRadioButton.addEventListener("click", function (event) {
