@@ -32,7 +32,6 @@
         </span>
 
         <span class="brandHouse">
-
         </span>
 
     </span>
@@ -40,30 +39,29 @@
 </header>
 
 <section class="tema">
-    <span class="container">
+    <div class="container">
         <p class="tem-text">TEMA</p>
         <h1 class="firstTimeBuyer">Førstegangskøber</h1>
         <p class="bodyTextTema">Få som førstegangskøber overblik over som børnefamilie i København tilgængelighed over
             daginstitutioner og gårdhaver på denne temaside. Du kan bl.a., se hvilke daginstitutioner, der ligger tæt på
             de gårdhaver i det område du ser efter boliger.</p>
-    </span>
+    </div>
 </section>
 
 <body>
-<span class="flex-container">
+<div class="flex-container">
     <h1>Sådan bruger du kortet</h1>
     <ul>
         <li>Filtrér hvad du vil se på kortet.</li>
         <li>Se dine valg på kortet, særligt fokus på KBH.</li>
         <li>Zoom ind/ud efter byer du ønsker at se.</li>
     </ul>
-</span>
 
 
-<span class="flex-container2">
+<div>
     <div id="map"></div>
 
-    <form>
+    <form class="radioButtons">
         <input id="day-careCentre" name="selection" type="radio" value="Daginstitutioner">
         <label for="day-careCentre">Daginstitutioner</label>
         <input id="backGarden" name="selection" type="radio" value="Gårdhaver">
@@ -73,10 +71,10 @@
         <input id="clearAll" type="button" value="Nulstil">
     </form>
 
-</span>
+</div>
 
-<section class="sourcesReferences">
-    <span>
+<section>
+    <div>
         <h2 class="sources">Kilder og henvisninger</h2>
         <h3>Bidragsydere:</h3>
         <ul class="listOfNames">
@@ -92,8 +90,9 @@
             <li><a href="https://www.opendata.dk/city-of-copenhagen/daginstitutioner" id="dataAboutInst"
                    target="_blank">Data om "daginstitutioner" på opendata.dk</a></a></li>
         </ul>
-    </span>
+    </div>
 </section>
+</div>
 
 <!╌ Henviser til filen om gårdhaver ╌>
 <script src="geojsongarden.js"></script>

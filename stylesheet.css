@@ -14,7 +14,7 @@ body {
 
 /* bolius header */
 header {
-    padding: 0.5%;;
+    padding: 1%;
     margin: 0;
     width: auto;
     background: #fff;
@@ -26,10 +26,11 @@ header {
 /* bolius logo */
 img {
     margin: 0;
-    top: 20%;
+    bottom: 30px;
     width: 6%;
-    height: auto;
+    height: 20%;
 }
+
 
 /* Menuen med bolig, have og om*/
 .centeredOptions {
@@ -46,32 +47,39 @@ img {
 .flex-container {
     display: flex;
     position: absolute;
-    top: 60%;
-    left: 25%;
+    flex-direction: column;
+    top: 68%;
+    left: 19%;
     margin: 2%;
-    padding: 2%;
-    width: 45%;
+    padding: 4%;
+    width: 60%;
     background-color: rgb(221, 235, 235);
-    font-size: 95%;
+    box-sizing: border-box;
 }
 
 
 
+/* tekst størrelse for "s¨+ådan bruger du kortet"*/
+h1 {
+    font-size: 150%;
+}
+
+/* tekst størrelse for "filter teksten"*/
+li {
+    font-size: 100%;
+    padding: 1%;
+}
+
 /* knap om gårdhaver, daginstitutioner og vis alle */
-.flex-container2 {
-    width: 45%;
-    padding: 2%;
-    margin: 2%;
-    background-color: white;
-    position: absolute;
-    top: 75%;
-    left: 25%;
-    color: black;
+.radioButtons {
+    font-size: 110%;
+    padding: 3%;
+    align-items: center;
 }
 
 /* Team boksens farve, tekst placering/farve */
 .tema {
-    padding: 5%;
+    padding: 6%;
     text-align: left;
     background-color: rgb(62, 89, 89);
     color: white;
@@ -95,17 +103,6 @@ img {
 }*/
 
 /* Boksen "kilder og henvisninger" placering, baggrundsfarve, størrelse på boksen*/
-.sourcesReferences {
-    display: flex;
-    position: absolute;
-    top: 170%;
-    left: 25%;
-    width: 45%;
-    padding: 2%;
-    margin: 2%;
-    background-color: rgb(221, 235, 235);
-    font-size: 80%;
-}
 
 /* Teksten "Kilder og henvisninger" størrelse og farve*/
 .sources {
@@ -138,7 +135,6 @@ img {
     accent-color: black;
 }
 
-
 /* mellemrum øverst i menuen*/
 .menu-toggle nav-link, .nav-item, .menu-toggle {
     padding: 4%;
@@ -147,6 +143,6 @@ img {
 /* placering for elementer i menuen*/
 .searchContainer {
     position: relative;
-    left: 20%;
-    top: 10%;
+    left: 18%;
+    top: -10px;
 }
