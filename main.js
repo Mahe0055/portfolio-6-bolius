@@ -37,7 +37,7 @@ backGardenRadioButton.addEventListener("click", function (event) {
         {
             weight: 1,
             opacity: 100,
-            color: "#86babf",
+            color: "#ee5c47",
             dashArray: '3',
             fillOpacity: 0.7
         };
@@ -77,7 +77,7 @@ showAllRadioButton.addEventListener("click", function (event) {
         {
             weight: 1,
             opacity: 100,
-            color: "#86babf",
+            color: "#ee5c47",
             dashArray: '3',
             fillOpacity: 0.7
         };
