@@ -1,8 +1,8 @@
 //Daginstitutioner markers design på kortet i farven grøn
 var geojsonMarkerOptions = {
     radius: 8,
-    fillColor: "#468C8C",
-    color: "#3E5959",
+    fillColor: "#86babf",
+    color: "#468C8C",
     weight: 1,
     opacity: 1,
     fillOpacity: 0.8

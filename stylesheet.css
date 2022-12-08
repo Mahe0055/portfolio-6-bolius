@@ -90,6 +90,7 @@ li {
 /* tekst størrelse for "sådan bruger du kortet"*/
 h1 {
     font-size: 150%;
+    text-align: center;
 }
 
 /* Map placering på hjemmsiden: høje, længde, i midten af hjemmesiden */
@@ -101,7 +102,7 @@ h1 {
 
 /* grøn radio button for "gårdhaver"*/
 #backGarden {
-    accent-color: #ee5c47;
+    accent-color: #3E5959;
 }
 
 /* grøn radio button for "Daginstitutioner"*/
@@ -112,6 +113,16 @@ h1 {
 /* sort radio button for "Vis alle"*/
 #showAll {
     accent-color: black;
+}
+
+#clearAll {
+    background-color: #ee5c47;
+    font-weight: lighter;
+    font-family: Arial;
+    color: #fff;
+    border-color: #fff;
+    border-radius: 20%;
+    padding: 0.2%;
 }
 
 /* knap om gårdhaver, daginstitutioner og vis alle */
