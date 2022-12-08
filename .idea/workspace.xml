@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="53b1c585-7f65-4bff-b892-d1e7b285f359" name="Changes" comment="Rettet felx boks">
+    <list default="true" id="53b1c585-7f65-4bff-b892-d1e7b285f359" name="Changes" comment="Tilføjet map.eachLayer og removeLayer">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheet.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +79,7 @@
       <workItem from="1670322946967" duration="204000" />
       <workItem from="1670397938089" duration="6732000" />
       <workItem from="1670434444233" duration="4027000" />
+      <workItem from="1670484699462" duration="5771000" />
     </task>
     <task id="LOCAL-00001" summary="Html">
       <created>1669717622524</created>
@@ -214,7 +214,21 @@
       <option name="project" value="LOCAL" />
       <updated>1670403326376</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Tilføjet map.eachLayer og removeLayer">
+      <created>1670484791197</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1670484791197</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Tilføjet map.eachLayer og removeLayer">
+      <created>1670484868745</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1670484868745</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,6 +259,7 @@
     <MESSAGE value="Mangler gårshaver - ny farve" />
     <MESSAGE value="gårdhaver farver" />
     <MESSAGE value="Rettet felx boks" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rettet felx boks" />
+    <MESSAGE value="Tilføjet map.eachLayer og removeLayer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tilføjet map.eachLayer og removeLayer" />
   </component>
 </project>

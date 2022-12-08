@@ -15,12 +15,14 @@ daycareRadioButton.addEventListener("click", function (event) {
         if (layer.myTag === "gaardhaver") {
             map.removeLayer(layer)
         }
+
     });
 
 //Tilføjer et tag på hver daginstitutions datapunkt
     L.geoJSON(geojsonInst, {
         onEachFeature: function (feature, layer) {
-            layer.myTag = "daginstitutioner"
+            layer.myTag = "daginstitutioner";
+            layer.bindPopup(feature.properties.enhedsnavn); //Tilføjer "enhedsnavn" på hver grøn cirkel
         },
         pointToLayer: function (feature, latlng) {//Daginstitutioner - runde grønne cirkler
             return L.circleMarker(latlng, geojsonMarkerOptions);
@@ -66,6 +68,7 @@ showAllRadioButton.addEventListener("click", function (event) {
     L.geoJSON(geojsonInst, {
         onEachFeature: function (feature, layer) {
             layer.myTag = "daginstitutioner"
+            layer.bindPopup(feature.properties.enhedsnavn); //Tilføjer "enhedsnavn" på hver grøn cirkel
         },
         pointToLayer: function (feature, latlng) {//Daginstitutioner - runde grønne cirkler
             return L.circleMarker(latlng, geojsonMarkerOptions);
@@ -91,13 +94,10 @@ showAllRadioButton.addEventListener("click", function (event) {
     }).addTo(map);
 });
 
-
-
-
 //Nulstil "button" der gør at daginstitutioner og gårdhaver bliver fjernet på kortet
 const clearAllRadioButton = document.querySelector("#clearAll");
 clearAllRadioButton.addEventListener("click", function (event) {
-   //document.location.reload(); ----- Tænker vi kan fjerne denne og bruge den nedestående?
+   //Fjerner daginstitutioner og gårdhaver layers, når man trykker på nulstil
     map.eachLayer(function (layer) {
         if (layer.myTag) {
             map.removeLayer(layer)
@@ -105,3 +105,4 @@ clearAllRadioButton.addEventListener("click", function (event) {
     });
     map.setView([55.676098, 12.568337], 11); //Når man trykker på "nulstil" kommer kortet tilbage til udgangspunktet
 });
+
