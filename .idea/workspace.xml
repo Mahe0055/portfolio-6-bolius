@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="53b1c585-7f65-4bff-b892-d1e7b285f359" name="Changes" comment="Tilføjet map.eachLayer og removeLayer">
+    <list default="true" id="53b1c585-7f65-4bff-b892-d1e7b285f359" name="Changes" comment="Tilføjet navn på dagins på de grønne cirkler">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
     </list>
@@ -79,7 +79,7 @@
       <workItem from="1670322946967" duration="204000" />
       <workItem from="1670397938089" duration="6732000" />
       <workItem from="1670434444233" duration="4027000" />
-      <workItem from="1670484699462" duration="5771000" />
+      <workItem from="1670484699462" duration="6561000" />
     </task>
     <task id="LOCAL-00001" summary="Html">
       <created>1669717622524</created>
@@ -228,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670484868745</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Tilføjet navn på dagins på de grønne cirkler">
+      <created>1670491115381</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1670491115381</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,6 +267,7 @@
     <MESSAGE value="gårdhaver farver" />
     <MESSAGE value="Rettet felx boks" />
     <MESSAGE value="Tilføjet map.eachLayer og removeLayer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tilføjet map.eachLayer og removeLayer" />
+    <MESSAGE value="Tilføjet navn på dagins på de grønne cirkler" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tilføjet navn på dagins på de grønne cirkler" />
   </component>
 </project>

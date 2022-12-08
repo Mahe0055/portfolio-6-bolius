@@ -56,6 +56,7 @@ backGardenRadioButton.addEventListener("click", function (event) {
         style: myStyle,
         onEachFeature: function (feature, layer) {
             layer.myTag = "gaardhaver"
+            layer.bindPopup(feature.properties.karrenavn); //Tilføjer "karrenavn" på hver orange firkant
         }
     }).addTo(map);
 });
@@ -90,6 +91,7 @@ showAllRadioButton.addEventListener("click", function (event) {
         style: myStyle,
         onEachFeature: function (feature, layer) {
             layer.myTag = "gaardhaver"
+            layer.bindPopup(feature.properties.karrenavn); //Tilføjer "karrenavn" på hver orange firkant
         }
     }).addTo(map);
 });
