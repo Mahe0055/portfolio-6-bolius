@@ -149,6 +149,14 @@ h1 {
     color: black;
 }
 
+/* Linjeafstand i underrubrik under tema*/
 p {
     line-height: 35px;
+}
+
+/* Tema rykket mere til højre og længde forkortet*/
+.container {
+    position: relative;
+    left: 20%;
+    width: 60%;
 }
