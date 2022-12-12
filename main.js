@@ -125,7 +125,9 @@ const chart = new Chart(ctx, {
         },
         plugins: {
             legend: {
-                position: "bottom"
+                position: "bottom",
+                display: false // Fjernet "bottom"
+
             },
             title: {
                 display: true, // "Text" bliver vist ved "true"
