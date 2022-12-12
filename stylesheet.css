@@ -57,7 +57,7 @@ header {
 /* Teskten "Førstegangskøber". Størrelse */
 .firstTimeBuyer {
     font-size: 250%;
-    align-items: center;
+    text-align: left;
 }
 
 /* Baggrundsfarve på hjemmesiden: "papir" */
@@ -147,7 +147,6 @@ h1 {
 
 /* Teksten "Bidragsydere" og "henvisninger" ingen prikker ved navne/links*/
 .listOfNames, .links {
-    list-style-type: none;
     text-align: left;
 }
 

@@ -97,4 +97,3 @@ clearAllRadioButton.addEventListener("click", function (event) {
     backGardenRadioButton.checked = false
     showAllRadioButton.checked = false
 });
-
