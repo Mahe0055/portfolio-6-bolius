@@ -108,5 +108,31 @@ const chart = new Chart(ctx, {
             data: [71523,38079,22778],
             backgroundColor: ['#ee5c47','rgb(238,92,71,0.6)','rgb(238,92,71,0.6)',]
         }]
+    },
+    options: {
+        scales: {
+            x: {
+                grid: {
+                    display: false // Fjernet lodret gitter ved "false"
+                },
+            },
+
+            y: {
+                grid: {
+                    display: false // Fjernet lodret gitter ved "false"
+                },
+            }
+        },
+        plugins: {
+            legend: {
+                position: "bottom"
+            },
+            title: {
+                display: true, // "Text" bliver vist ved "true"
+                text: "Antal børnefamiler d. 1 januar 2022", // "Text" indhold
+                padding: 10,
+                font:{size: 14}
+            },
+        }
     }
 });
