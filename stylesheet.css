@@ -104,6 +104,11 @@ h1 {
     margin: 0 auto;
 }
 
+/* Sætter alle knapperne i midten under kortet*/
+.radioButtons {
+    text-align: center;
+}
+
 /* grøn radio button for "gårdhaver"*/
 #backGarden {
     accent-color: #3E5959;
