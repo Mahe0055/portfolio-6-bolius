@@ -88,8 +88,8 @@ body {
 .howToUseMapLists {
     font-size: 100%;
     padding: 1%;
-    text-align: center;
-    list-style-type: none; /* Remove bullets */
+    margin-left: 85px;
+
 }
 
 /* tekst størrelse for "sådan bruger du kortet"*/
