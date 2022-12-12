@@ -98,3 +98,15 @@ clearAllRadioButton.addEventListener("click", function (event) {
     showAllRadioButton.checked = false
 });
 
+
+const ctx = document.querySelector('#chart').getContext('2d');
+const chart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+        labels: ['København', 'Århus', 'Odense'],
+        datasets: [{
+            data: [71523,38079,22778],
+            backgroundColor: ['#ee5c47','rgb(238,92,71,0.6)','rgb(238,92,71,0.6)',]
+        }]
+    }
+});
