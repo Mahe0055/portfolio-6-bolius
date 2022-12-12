@@ -35,7 +35,6 @@
         </span>
 
     </span>
-
 </header>
 
 <section class="tema">
@@ -53,56 +52,63 @@
     <div class="pageDescription">
         <h1 class="toFamilies">Til jer familier med børn</h1>
         <p>Se om der er en daginstitution for dit barn i området, hvor I vil bo og om der er nogle gårdhaver.
-        Gårdhaver for familier, giver mulighed for at socialisere sig og lave sociale aktiviteter med familien, naboer og venner.
-        Gårdhaverne kan indeholde grillplads, legeplads, bænke, græsarealer m.m. Nogle gårdhave er dog private, mens andre har åbent adgang.
-        Tag dine børn med til en gårdhave, efter du har hentet dem fra daginstitution og hyg jer med spil/leg, spisning m.m.
+            Gårdhaver for familier, giver mulighed for at socialisere sig og lave sociale aktiviteter med familien,
+            naboer og venner.
+            Gårdhaverne kan indeholde grillplads, legeplads, bænke, græsarealer m.m. Nogle gårdhave er dog private, mens
+            andre har åbent adgang.
+            Tag dine børn med til en gårdhave, efter du har hentet dem fra daginstitution og hyg jer med spil/leg,
+            spisning m.m.
         </p>
     </div>
 
     <div class="howToUseMap">
-    <h1>Sådan bruger du kortet</h1>
+        <h1>Sådan bruger du kortet</h1>
     </div>
-    <ul>
+    <ul class="howToUseMapLists">
         <li>Filtrér hvad du vil se på kortet.</li>
         <li>Se dine valg på kortet, særligt fokus på KBH.</li>
         <li>Zoom ind/ud efter byer du ønsker at se.</li>
     </ul>
 
 
-<div>
-    <div id="map"></div>
-
-    <form class="radioButtons">
-        <input id="day-careCentre" name="selection" type="radio" value="Daginstitutioner">
-        <label for="day-careCentre">Daginstitutioner</label>
-        <input id="backGarden" name="selection" type="radio" value="Gårdhaver">
-        <label for="backGarden">Gårdhaver</label>
-        <input id="showAll" name="selection" type="radio" value="Vis alle">
-        <label for="showAll">Vis alle</label>
-        <input id="clearAll" type="button" value="Nulstil">
-    </form>
-
-</div>
-
-<section>
     <div>
-        <h2 class="sources">Kilder og henvisninger</h2>
-        <h3>Bidragsydere:</h3>
-        <ul class="listOfNames">
-            <li>Amalie, IT-arkitektur studerende</li>
-            <li>Klara, IT-arkitektur studerende</li>
-            <li>Maheen, IT-arkitektur studerende</li>
-        </ul>
-        <h3>Henvisninger:</h3>
-        <ul class="links">
-            <li><a href="https://www.opendata.dk/city-of-copenhagen/gardhaver#resource-gaardhaver.geojson"
-                   id="dataAboutGarden"
-                   target="_blank">Data om "gårdhaver" på opendata.dk</a></li>
-            <li><a href="https://www.opendata.dk/city-of-copenhagen/daginstitutioner" id="dataAboutInst"
-                   target="_blank">Data om "daginstitutioner" på opendata.dk</a></a></li>
-        </ul>
+        <div id="map"></div>
+
+        <form class="radioButtons">
+            <input id="day-careCentre" name="selection" type="radio" value="Daginstitutioner">
+            <label for="day-careCentre">Daginstitutioner</label>
+            <input id="backGarden" name="selection" type="radio" value="Gårdhaver">
+            <label for="backGarden">Gårdhaver</label>
+            <input id="showAll" name="selection" type="radio" value="Vis alle">
+            <label for="showAll">Vis alle</label>
+            <input id="clearAll" type="button" value="Nulstil">
+        </form>
+
     </div>
-</section>
+
+    <div class="dayCareZipCode">
+
+    </div>
+
+    <section>
+        <div>
+            <h2 class="sources">Kilder og henvisninger</h2>
+            <h3>Bidragsydere:</h3>
+            <ul class="listOfNames">
+                <li>Amalie, IT-arkitektur studerende</li>
+                <li>Klara, IT-arkitektur studerende</li>
+                <li>Maheen, IT-arkitektur studerende</li>
+            </ul>
+            <h3>Henvisninger:</h3>
+            <ul class="links">
+                <li><a href="https://www.opendata.dk/city-of-copenhagen/gardhaver#resource-gaardhaver.geojson"
+                       id="dataAboutGarden"
+                       target="_blank">Data om "gårdhaver" på opendata.dk</a></li>
+                <li><a href="https://www.opendata.dk/city-of-copenhagen/daginstitutioner" id="dataAboutInst"
+                       target="_blank">Data om "daginstitutioner" på opendata.dk</a></a></li>
+            </ul>
+        </div>
+    </section>
 </div>
 
 <!╌ Henviser til filen om gårdhaver ╌>

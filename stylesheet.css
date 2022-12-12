@@ -67,6 +67,8 @@ body {
     margin: 0;
 }
 
+
+
 /* Information om hvordan man bruger kortet*/
 .flex-container {
     display: flex;
@@ -82,9 +84,11 @@ body {
 }
 
 /* tekst størrelse for "sådan bruger du kortet" og "kilde og henvisninger*/
-li {
+.howToUseMapLists {
     font-size: 100%;
     padding: 1%;
+    text-align: center;
+    list-style-type: none; /* Remove bullets */
 }
 
 /* tekst størrelse for "sådan bruger du kortet"*/
