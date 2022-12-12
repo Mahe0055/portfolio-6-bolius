@@ -180,3 +180,9 @@ p {
 h3 {
     font-size: 100%;
 }
+
+.textUnderChart {
+    text-align: center;
+    font-size:70%;
+    font-style: italic;
+}
