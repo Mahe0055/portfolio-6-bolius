@@ -40,9 +40,9 @@ header {
     transition: all .2s ease;
 }
 
-/* Tema boksens farve, tekst placering/farve */
+/* Team boksens farve, tekst placering/farve */
 .tema {
-    padding: 2%;
+    padding: 6%;
     text-align: left;
     background-color: rgb(62, 89, 89);
     color: white;
@@ -56,8 +56,8 @@ header {
 
 /* Teskten "Førstegangskøber". Størrelse */
 .firstTimeBuyer {
-    font-size: 400%;
-    text-align: left;
+    font-size: 250%;
+    align-items: center;
 }
 
 /* Baggrundsfarve på hjemmesiden: "papir" */
@@ -121,12 +121,15 @@ h1 {
 
 #clearAll {
     background-color: #ee5c47;
-    font-weight: lighter;
+    border: none;
+    color: white;
+    padding: 6px 12px;
+    text-align: center;
+    text-decoration: none;
     font-family: Arial;
-    color: #fff;
-    border-color: #fff;
-    border-radius: 20%;
-    padding: 0.2%;
+    display: inline-block;
+    font-size: 14px;
+    letter-spacing: 1px;
 }
 
 /* knap om gårdhaver, daginstitutioner og vis alle */
