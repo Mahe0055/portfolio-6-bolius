@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="53b1c585-7f65-4bff-b892-d1e7b285f359" name="Changes" comment="linjeafstand">
-      <change beforePath="$PROJECT_DIR$/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheet.css" afterDir="false" />
+    <list default="true" id="53b1c585-7f65-4bff-b892-d1e7b285f359" name="Changes" comment="byer i linjerne og tekst">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +25,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -79,6 +82,10 @@
       <workItem from="1670397938089" duration="6732000" />
       <workItem from="1670434444233" duration="4027000" />
       <workItem from="1670484699462" duration="6561000" />
+      <workItem from="1670856693167" duration="364000" />
+      <workItem from="1670951041565" duration="20000" />
+      <workItem from="1670951400703" duration="2943000" />
+      <workItem from="1671002829666" duration="3644000" />
     </task>
     <task id="LOCAL-00001" summary="Html">
       <created>1669717622524</created>
@@ -248,7 +255,49 @@
       <option name="project" value="LOCAL" />
       <updated>1670494129855</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="punkter rammer korts grænse">
+      <created>1670841535896</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1670841535896</updated>
+    </task>
+    <task id="LOCAL-00026" summary="ejerbolig">
+      <created>1671005610117</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1671005610117</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Legends">
+      <created>1671006060579</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1671006060579</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Legends">
+      <created>1671006088729</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1671006088729</updated>
+    </task>
+    <task id="LOCAL-00029" summary="byer i linjerne">
+      <created>1671006327871</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1671006327871</updated>
+    </task>
+    <task id="LOCAL-00030" summary="byer i linjerne og tekst">
+      <created>1671006423653</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1671006423653</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -283,6 +332,11 @@
     <MESSAGE value="Tilføjet navn på dagins på de grønne cirkler" />
     <MESSAGE value="Beskrivelse af formål og budskab" />
     <MESSAGE value="linjeafstand" />
-    <option name="LAST_COMMIT_MESSAGE" value="linjeafstand" />
+    <MESSAGE value="punkter rammer korts grænse" />
+    <MESSAGE value="ejerbolig" />
+    <MESSAGE value="Legends" />
+    <MESSAGE value="byer i linjerne" />
+    <MESSAGE value="byer i linjerne og tekst" />
+    <option name="LAST_COMMIT_MESSAGE" value="byer i linjerne og tekst" />
   </component>
 </project>
