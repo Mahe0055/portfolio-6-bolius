@@ -126,6 +126,11 @@ const chart = new Chart(ctx, {
             },
 
             y: {
+                display: true,
+                title: {
+                    display: true,
+                    text: 'Antal børnefamilier'
+                },
                 grid: {
                     display: false // Fjernet lodret gitter ved "false"
                 },
