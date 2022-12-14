@@ -9,7 +9,7 @@ var geojsonMarkerOptions = {
 };
 
 //Daginstitutioner
-let geojsonInst = {
+let geoJsoninst = {
     "type":
         "FeatureCollection",
     "features":

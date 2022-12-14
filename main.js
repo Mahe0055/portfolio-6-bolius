@@ -32,7 +32,7 @@ daycareRadioButton.addEventListener("click", function (event) {
         }
     });
 
-    L.geoJSON(geojsonInst, {
+    L.geoJSON(geoJsoninst, {
         onEachFeature: function (feature, layer) {
             layer.myTag = "daginstitutioner"; //Tilføjer et tag på hver daginstitutions datapunkt
             layer.bindPopup(feature.properties.enhedsnavn + " " + "<br>" + feature.properties.vejadresseringsnavn); //Tilføjer "enhedsnavn" på hver grøn cirkel
@@ -63,7 +63,7 @@ backGardenRadioButton.addEventListener("click", function (event) {
 
 //Vis alle "Radio button" der gør at daginstitutioner og gårdhaver bliver vist på kortet samtidig
 showAllRadioButton.addEventListener("click", function (event) {
-    L.geoJSON(geojsonInst, {
+    L.geoJSON(geoJsoninst, {
         onEachFeature: function (feature, layer) {
             layer.myTag = "daginstitutioner" //Tilføjer et tag på hver daginstitutions datapunkt
             layer.bindPopup(feature.properties.enhedsnavn); //Tilføjer "enhedsnavn" på hver grøn cirkel, så når man trykker, vises navnet på daginstitutionen
