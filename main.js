@@ -139,7 +139,6 @@ const chart = new Chart(ctx, {
         plugins: {
             legend: {
                 position: "bottom",
-                display: false // Fjernet "bottom"
             },
 
             title: {
