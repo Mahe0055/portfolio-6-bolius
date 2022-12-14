@@ -19,7 +19,6 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js"></script>
 </head>
 
-
 <header>
     <span class="searchContainer">
         <span class="boliusLogo">
@@ -48,7 +47,7 @@
     <div class="container">
         <p class="tem-text">TEMA</p>
         <h1 class="firstTimeBuyer">Førstegangskøber</h1>
-        <p class="bodyTextTema">Få som førstegangskøber overblik over som børnefamilie i København tilgængelighed over
+        <p class="bodyTextTema">Få som førstegangskøber som en børnefamilie i København overblik over tilgængelighed til
             daginstitutioner og gårdhaver på denne temaside. Du kan bl.a. se hvilke daginstitutioner, der ligger tæt på
             de gårdhaver i det område du ser efter ejerbolig, uanset om det er hus eller lejlighed.</p>
     </div>
@@ -77,10 +76,8 @@
         <li>Zoom ind/ud efter byer du ønsker at se.</li>
     </ul>
 
-
     <div>
         <div id="map"></div>
-
         <form class="radioButtons">
             <input id="day-careCentre" name="selection" type="radio" value="Daginstitutioner">
             <label for="day-careCentre">Daginstitutioner</label>
@@ -92,21 +89,19 @@
         </form>
 
         <div class="diagram-description">
-            <h2>Gør som mange andre børnefamilier. Køb Køb ejerbolig i København</h2>
+            <h2>Gør som mange andre børnefamilier. Køb ejerbolig i København</h2>
             <p>I diagrammet nedenfor kan du se København sammenelignet med Aalborg. København har et større antal
-                tilflyttere i form af børnefamilier, i forhold til fx. Aalborg. Derfor er København en god mulighed for dig som førstegangskøber at flytte til, sammen med din familie i et område med massevis af instititioner og gårdhaver, som dine børn kan lege i.</p>
+                tilflyttere i form af børnefamilier, i forhold til fx. Aalborg. Derfor er København en god mulighed for
+                dig som førstegangskøber at flytte til, sammen med din familie i et område med massevis af instititioner
+                og gårdhaver, som dine børn kan lege i.</p>
 
         </div>
-
-
-
     </div>
     <canvas id="chart"></canvas>
 
     <div class="textUnderChart">
         <p> Andelen af børnefamilier pr.indbygger er 10.96% i København og 10.83% i Aalborg</p>
     </div>
-
 
     <section>
         <div>
@@ -124,13 +119,14 @@
                        target="_blank">Data om "gårdhaver" på opendata.dk</a></li>
                 <li><a href="https://www.opendata.dk/city-of-copenhagen/daginstitutioner" id="dataAboutInst"
                        target="_blank">Data om "daginstitutioner" på opendata.dk</a></a></li>
-                <li><a href="https://www.statistikbanken.dk/statbank5a/Graphics/MapAnalyser.asp?Maintable=FAM44BA&PLanguage=0&BOERNALD=0&ENHED=AFAM&OMR%C3%85DE=101&BOERNAL1=0" id="dataAboutInst"
+                <li>
+                    <a href="https://www.statistikbanken.dk/statbank5a/Graphics/MapAnalyser.asp?Maintable=FAM44BA&PLanguage=0&BOERNALD=0&ENHED=AFAM&OMR%C3%85DE=101&BOERNAL1=0"
+                       id="dataAboutInst"
                        target="_blank">Data om "antal børnefamilier" på www.statistikbanken.dk</a></a></li>
             </ul>
         </div>
     </section>
 </div>
-
 <!╌ Henviser til filen om gårdhaver ╌>
 <script src="geojsongarden.js"></script>
 <!╌ Henviser til filen om daginstitutioner╌>
