@@ -110,7 +110,7 @@ const chart = new Chart(ctx, {
             backgroundColor: ['rgb(238,92,71)'],
          },
             {
-                label: 'Aalborg',
+                label: 'Ålborg',
                 data: [24582,24243,24091,23875,23723,23632,23536,23494,23409,23252,23350,23390,23166,23054,22914,22939,23031,23098,23173,23209,23381,23315,23375,23411,23541,23601,23562,23677,23589,23489,23519,23568,23614,23629,23694,23836,23944],
                 backgroundColor: ['rgb(238,92,71,0.6)',]
             }
@@ -134,6 +134,9 @@ const chart = new Chart(ctx, {
         plugins: {
             legend: {
                 position: "bottom",
+                display: false // Fjernet "bottom"
+
+
             },
             title: {
                 display: true, // "Text" bliver vist ved "true"
