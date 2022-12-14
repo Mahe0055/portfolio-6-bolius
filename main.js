@@ -137,7 +137,7 @@ const chart = new Chart(ctx, {
             },
             title: {
                 display: true, // "Text" bliver vist ved "true"
-                text: "Antal børnefamiler fra d. 1 januar 2022 opdelt i kommuner", // "Text" indhold
+                text: "Antal børnefamilier i København og Ålborg fra 1986 til 2022", // "Text" indhold
                 padding: 10,
                 font:{size: 14}
             },
