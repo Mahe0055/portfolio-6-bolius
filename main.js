@@ -115,7 +115,6 @@ const chart = new Chart(ctx, {
                 backgroundColor: ['rgb(238,92,71,0.6)',]
             }
         ],
-
 },
     options: {
         scales: {
@@ -135,9 +134,8 @@ const chart = new Chart(ctx, {
             legend: {
                 position: "bottom",
                 display: false // Fjernet "bottom"
-
-
             },
+
             title: {
                 display: true, // "Text" bliver vist ved "true"
                 text: "Antal børnefamiler fra d. 1 januar 2022 opdelt i kommuner", // "Text" indhold
